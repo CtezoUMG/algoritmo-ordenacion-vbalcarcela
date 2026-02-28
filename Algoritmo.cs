@@ -10,6 +10,8 @@ public class Algoritmo
         return Enumerable.Range(0, n).Select(_ => r.Next(0, 50000)).ToArray();
     }
 
+
+
     public bool EstaOrdenado(int[] arr)
     {
         if (arr == null || arr.Length == 0) return true;
