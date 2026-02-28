@@ -30,7 +30,7 @@ jobs:
       with:
         test-name: "Bubble Sort 10,000"
         # Importante: El ejecutable debe llamarse igual que tu proyecto
-        command: "/usr/bin/time -v ./bin/Release/net10.0/AlgoritmosUMG > out.txt 2> met.txt && cat out.txt"
+        command: "/usr/bin/time -v ./bin/Release/net10.0/AlgoOrder > out.txt 2> met.txt && cat out.txt"
         input: ""
         expected-output: "VALIDATION: SUCCESS"
         comparison-method: contains
